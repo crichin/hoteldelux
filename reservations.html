@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservations - Hôtel de Luxe</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logohotel.jpg" alt="Logo de l'hôtel">
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="chambres.html">Chambres</a></li>
+                <li><a href="temoignage.html">Temoignage</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="reservation-form">
+        <div class="container">
+            <h2>Réservez Votre Séjour</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="nom">Nom complet :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Adresse email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telephone">Numéro de téléphone :</label>
+                    <input type="tel" id="telephone" name="telephone" required>
+                </div>
+                <div class="form-group">
+                    <label for="arrivee">Date d'arrivée :</label>
+                    <input type="date" id="arrivee" name="arrivee" required>
+                </div>
+                <div class="form-group">
+                    <label for="depart">Date de départ :</label>
+                    <input type="date" id="depart" name="depart" required>
+                </div>
+                <div class="form-group">
+                    <label for="commentaire">Commentaire :</label>
+                    <textarea id="commentaire" name="commentaire" rows="5"></textarea>
+                </div>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Contactez-nous</h4>
+              <p>Adresse: 123 Rue de l'Hôtel</p>
+              <p>Ville: cotonou</p>
+              <p>Téléphone: +229 456 7890</p>
+              <p>Email: Luxe@hotel.com</p>
+            </div>
+            <div class="col-md-4">
+              <h4>Réseaux Sociaux</h4>
+              <ul class="social-icons">
+                <li><a href="#"><i class="fab fa-facebook-f">Facebook</i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"> Twitter</i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"> Instagram</i></a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h4>Liens Utiles</h4>
+              <ul class="footer-links">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Chambres</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Temoignage</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>&copy; 2024 Hotel de luxe. Tous droits réservés.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
